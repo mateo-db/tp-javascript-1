@@ -58,4 +58,6 @@ const alumno = {
 console.log(`
     Apellido: ${alumno.apellido}
     Nombre: ${alumno.nombre}
-    Estado: ${nota >= 6 ? 'Está aprobado!' : 'Está desaprobado'}`)
+    Nota: ${alumno.nota}
+    Estado: ${nota >= 6 ? 'Está aprobado!' : 'Está desaprobado'}
+`)
