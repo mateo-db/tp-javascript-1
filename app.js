@@ -25,3 +25,8 @@ if (edad < 13) {
 } else {
     console.log('Adulto');
 }
+
+const numero = 4
+for (let i = 1; i<=10; i++) {
+    console.log(`${i*numero}`)
+}
