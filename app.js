@@ -30,3 +30,9 @@ const numero = 4
 for (let i = 1; i<=10; i++) {
     console.log(`${i*numero}`)
 }
+
+let acc = 0
+
+for (let i = 1; i<=100; i++) {
+    console.log(`${acc=acc+i}`)
+}
