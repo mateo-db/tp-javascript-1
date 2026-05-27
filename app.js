@@ -47,3 +47,15 @@ for (let i = 1; i<=20; i++) {
         console.log(`El numero ${i} es impar.`)
     }
 }
+
+//actividad 7
+const alumno = {
+    nombre: 'Agostina',
+    apellido: 'Gonzalez',
+    nota: 10
+}
+
+console.log(`
+    Apellido: ${alumno.apellido}
+    Nombre: ${alumno.nombre}
+    Estado: ${nota >= 6 ? 'Está aprobado!' : 'Está desaprobado'}`)
